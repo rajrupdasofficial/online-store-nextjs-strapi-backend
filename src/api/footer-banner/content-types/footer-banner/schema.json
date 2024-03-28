@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_banners",
+  "info": {
+    "singularName": "footer-banner",
+    "pluralName": "footer-banners",
+    "displayName": "Footer Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
