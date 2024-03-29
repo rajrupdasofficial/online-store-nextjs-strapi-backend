@@ -799,6 +799,7 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
     singularName: 'category';
     pluralName: 'categories';
     displayName: 'Category';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -963,6 +964,7 @@ export interface ApiUserCartUserCart extends Schema.CollectionType {
       'manyToMany',
       'plugin::users-permissions.user'
     >;
+    userId: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
