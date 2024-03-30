@@ -32,10 +32,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: "*",
-      origin: [
-        "http://localhost:1337",
-        "https://online-store-nextjs-strapi-backend.onrender.com/",
-      ],
+      origin: ["*"],
     },
   },
   "strapi::poweredBy",
